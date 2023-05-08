@@ -1,13 +1,17 @@
 {
-  "name": "ws_proxy",
-  "version": "1.0.0",
-  "main": "index.js",
-  "license": "MIT",
-  "type": "module",
+  "name": "vercel-db",
+  "version": "0.1.0",
+  "private": true,
   "scripts": {
-    "dev": "node index.js"
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
   },
   "dependencies": {
-    "@vercel/postgres": "^0.1.3"
+    "@vercel/postgres": "^0.2.0",
+    "next": "13.3.4",
+    "react": "18.2.0",
+    "react-dom": "18.2.0"
   }
 }
